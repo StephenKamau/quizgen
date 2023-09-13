@@ -35,7 +35,6 @@ public class QuizService {
         quiz.setQuizTitle(updateQuiz.quizTitle());
         quiz.setQuizDescription(updateQuiz.quizDescription());
         quiz.setQuizOptions(updateQuiz.quizOptions());
-        quiz.setQuizAnswer(updateQuiz.quizAnswer());
         log.info("***Updating quiz with id: " + updateQuiz.id() + "***");
         return QuizDTO.fromQuiz(quizRepo.save(quiz));
     }

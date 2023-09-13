@@ -7,7 +7,6 @@ import org.springframework.security.core.GrantedAuthority;
 @NoArgsConstructor
 @Getter
 @Setter
-@Builder
 public class Authority implements GrantedAuthority {
     private String authority;
     @Override
