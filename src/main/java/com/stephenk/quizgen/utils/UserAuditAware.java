@@ -1,9 +1,8 @@
 package com.stephenk.quizgen.utils;
 
-import org.springframework.data.domain.AuditorAware;
-import org.springframework.lang.NonNullApi;
-
 import java.util.Optional;
+
+import org.springframework.data.domain.AuditorAware;
 
 public class UserAuditAware implements AuditorAware<String> {
 
